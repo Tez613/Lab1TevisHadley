@@ -69,3 +69,16 @@ Console.WriteLine($"The range of double is {min} to {max}");
 double third =1.0/3.0;
 Console.WriteLine(third);
 }
+decimal min=decimal.MinValue;
+decimal max=decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {min} to {max}");
+double a=1.0;
+double b=3.0;
+Console.WriteLine(a/b);
+decimal c=1.0m;
+decimal d=3.0m;
+Console.WriteLine(c/d);
+double Radius=2.50;
+double pi=Math.PI;
+double area =pi*(Radius*Radius);
+Console.WriteLine(area);
